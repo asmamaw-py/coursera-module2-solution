@@ -51,7 +51,7 @@ h3 {
 	clear: both;
 }
 
-
+/*-----desktop view-----*/
 @media (min-width: 992px) {
 	.sec1{
 	width: 350px;
@@ -66,11 +66,13 @@ h3 {
 	height: 160px;
 	}
 }
+/*-----Tablet view-----*/
 @media (min-width: 768px) and (max-width: 991px) {
 	.sec3 {
 		width: 80%;
 	}
 }
+/*-----mobile view-----*/
 @media (max-width:767px) {
 	section{
 	width: 350px;
